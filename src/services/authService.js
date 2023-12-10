@@ -39,6 +39,7 @@ export const loginUser = async (userData) => {
       return response.data;
     } else {
       toast.error(response.data.message, { theme: "colored" });
+      console.log(response.data);
       return response.data;
     }
   } catch (error) {

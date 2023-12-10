@@ -48,6 +48,7 @@ const Register = () => {
       name,
       email,
       password,
+      confirmPassword,
     };
     setisLoading(true);
     try {
